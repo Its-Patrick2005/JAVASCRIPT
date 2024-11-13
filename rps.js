@@ -4,7 +4,7 @@ const pl_name = prompt("WELCOME,PLEASE ENTER YOUR NAME(CAN BE IN CAPS): ");
 
 
 rps = (x) => {
-    const question = `A MATCH BETWEEN ${pl_name} AND COMPUTER AI  `
+    const question = `A MATCH BETWEEN [ ${pl_name}] AND POLAR SOLVENT  `
     let pl_selection = prompt("CHOOSE BETWEEN:ROCK,PAPER AND SCISSORS(MUST NOT BE IN CAPS): ");
     console.log(question);
     function good() { 
